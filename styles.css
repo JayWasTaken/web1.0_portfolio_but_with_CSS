@@ -1,0 +1,142 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Gruppo';
+    font-size: 22px;
+    margin: 0;
+    font-size: 1.5em;
+    background-color: rgb(158, 147, 207);
+}
+body > section, body > footer h3 {
+    margin-left: 4em;
+}
+body > section div, body > footer div {
+    margin: 0 0 0 2.5em;
+}
+#intro {
+    display: flex;
+    flex-direction: column;
+}
+.name {
+    font-size: 2em;
+    padding: 0 1em;
+    justify-content: flex-start;
+}
+#right-column {
+    display: flex;
+    position: relative;
+    width: 50%;
+}
+#right-column img {
+    width: 460px;
+    height: 600px;
+    border: 3px;
+    border-style: solid;
+    margin: 2em;
+}
+#column-display {
+    display: flex;
+    justify-content: space-between;
+}
+#left-column {
+    top: 100px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 50%;
+    margin: 0 0 0 2.5em;
+}
+#about {
+    margin: 0 0 0 2.5em;
+}
+#skills {
+    margin: 0 0 0 1.5em;
+}
+footer {
+    margin: 1.5em 0 3em 1.5em;
+}
+#links {
+    display: flex;
+    align-items: flex-start;
+}
+footer ul {
+    display: flex;
+    list-style: none;
+}
+footer a {
+    text-decoration: none;
+    color: black;
+    padding: 1em;
+}
+
+
+
+
+
+
+/* body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Gruppo';
+    font-size: 22px;
+    margin: 0;
+    font-size: 1.5em;
+    background-color: rgb(158, 147, 207);
+}
+body > section h3, body > footer h3 {
+    margin: 0 0 0 3em;
+}
+body > section div, body > footer div {
+    margin: 0 0 0 2.5em;
+}
+#intro {
+    display: flex;
+    flex-direction: column;
+}
+.name {
+    font-size: 2em;
+    padding: 0 1em;
+    justify-content: flex-start;
+}
+#right-column {
+    display: flex;
+    position: relative;
+    width: 50%;
+}
+#right-column img {
+    width: 460px;
+    height: 600px;
+    border: 3px;
+    border-style: solid;
+    margin: 2em;
+}
+#column-display {
+    display: flex;
+    justify-content: space-between;
+}
+#left-column {
+    top: 100px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 50%;
+}
+#skills {
+    margin: 0 0 0 1.5em;
+}
+footer {
+    margin: 0 0 3em 1.5em;
+}
+#links {
+    display: flex;
+    align-items: flex-start;
+}
+footer ul {
+    display: flex;
+    list-style: none;
+}
+footer a {
+    text-decoration: none;
+    color: black;
+    padding: 1em;
+} */

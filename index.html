@@ -3,40 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel= stylesheet href="styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Gruppo' rel='stylesheet'>
     <title>Document</title>
 </head>
 <body>
-    <header>
-        <h1>Janelle Mayberry</h1>
-    </header>
-    <img src="20200812_173042.jpg" alt="Me" width="290" height="400">
-    <section>
-        <h3>Skills</h3>
-        <ul>
-            <li>
-                Some experience in C++, Javascript, HTML, & Python
-            </li>
-            <li>
-                Built PC from scratch
-            </li>
-            <li>
-                Worked with ceramics and craftsmanship
-            </li>
-        </ul>
-    </section>
-    <section>
-        <h3>About Me</h3>
-        <p>
-        Hi! My name is Janelle, but most people call me Jay. 
-        I have been immersing myself in learning at my current college and enjoying the newfound energy that it has brought.
-        I have two cats currently and am studying Japanese in my free time.
-        My hobbies are swimming, making pottery, painting, and gaming.
-        </p>
-    </section>
-    <footer>
-        <p><a href="https://www.linkedin.com/in/janelle-mayberry-2aab321b5/" target="_blank">LinkedIn</a> </p>
-        <p><a href="https://github.com/JayWasTaken" target="_blank">GitHub</a> </p>
-    </footer>
+    <section id="column-display">
 
-    </body>
+        <section id="left-column">
+            <h1 class="name">Janelle Mayberry</h1>
+            <h3>About Me</h3>
+            <div id="about">
+                <p>Hi! My name is Janelle, but most people call me Jay. <br>
+                    I have been immersing myself in learning at my current college and enjoying the newfound energy that it has brought.<br>
+                    I have two cats currently and am studying Japanese in my free time.<br>
+                    My hobbies are swimming, making pottery, painting, and gaming.
+                </p>
+            </div>
+            <h3>Skills</h3>
+            <div id="skills">
+                <ul>
+                    <li>
+                        Some experience in C++, Python, Javascript, HTML, & CSS
+                    </li>
+                    <li>
+                        Built PC from scratch
+                    </li>
+                    <li>
+                        Worked with ceramics and craftsmanship
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section id="right-column">
+            <img src="20200812_173042.jpg" alt="Me">
+        </section>
+    </section>
+
+    <footer id="footer">
+        <h3>Links</h3>
+        <div id="links">
+            <ul>
+                <li>
+                    <a href="https://github.com/JayWasTaken" target="_blank">GitHub</a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/janelle-mayberry-2aab321b5/" target="_blank">LinkedIn</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
 </html>
